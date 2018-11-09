@@ -16,3 +16,18 @@ To deactivate an active environment, use:
 ```
 source deactivate
 ```
+
+To remove an environment, use:
+```
+conda env remove -n ngs_align
+```
+
+To see a list of all of your environments, use:
+```
+conda env list
+```
+
+To see a list of all packages installed in a specific environment, use:
+```
+conda list -n ngs_align
+```
