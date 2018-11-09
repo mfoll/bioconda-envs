@@ -1,0 +1,15 @@
+name: ngs_call
+channels:
+  - bioconda
+dependencies:
+  - platypus-variant
+  - octopus
+  - strelka
+  - samtools
+  - gatk
+  - gatk4
+  - varscan
+  - manta
+  - r-facets
+  - freebayes
+  

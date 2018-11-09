@@ -1,0 +1,16 @@
+name: ngs_align
+channels:
+  - bioconda
+dependencies:
+  - bwa
+  - bowtie2
+  - bsmap
+  - star
+  - star-fusion
+  - bbmap
+  - hisat2
+  - kallisto
+  - salmon
+  - stringtie
+  - trinity
+  
