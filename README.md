@@ -1,13 +1,24 @@
-# Bioconda environments.
+# Bioconda environments for bioinformatics.
 
-See `.yml` files for the content of each environment. 
+## Installation
 
-To create the environment, for example `ngs_align`, use:
+Clone the repository to get the environment `.yml`files:
 ```
+git clone https://github.com/mfoll/bioconda-envs.git
+```
+
+To create the environments use:
+```
+cd bioconda-envs
+conda env create -f ngs_process.yml 
+conda env create -f ngs_qc.yml 
 conda env create -f ngs_align.yml 
+conda env create -f ngs_call.yml 
 ```
 
-To activate this environment, use:
+## Usage
+
+To activate an environment, for example `ngs_align`, use:
 ```
 source activate ngs_align
 ```
@@ -31,3 +42,6 @@ To see a list of all packages installed in a specific environment, use:
 ```
 conda list -n ngs_align
 ```
+
+See also the content of each `.yml` file. 
+
