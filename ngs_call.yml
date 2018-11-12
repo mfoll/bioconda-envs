@@ -1,6 +1,8 @@
 name: ngs_call
 channels:
   - bioconda
+  - conda-forge
+  - defaults
 dependencies:
   - platypus-variant
   - octopus

@@ -2,7 +2,7 @@
 
 ## Installation
 
-Clone the repository to get the environment `.yml`files:
+Clone the repository to get the environment `.yml` files:
 ```
 git clone https://github.com/mfoll/bioconda-envs.git
 ```
@@ -31,6 +31,11 @@ source deactivate
 To remove an environment, use:
 ```
 conda env remove -n ngs_align
+```
+
+To update packages in an environment, use:
+```
+conda update -n ngs_align --all
 ```
 
 To see a list of all of your environments, use:

@@ -1,0 +1,7 @@
+name: ngs_qc
+channels:
+  - bioconda
+dependencies:
+  - fastqc
+  - multiqc
+  - qualimap
