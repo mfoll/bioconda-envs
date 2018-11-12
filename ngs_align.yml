@@ -1,7 +1,7 @@
 name: ngs_align
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
   - defaults
 dependencies:
   - bwa

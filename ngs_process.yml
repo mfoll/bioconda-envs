@@ -1,7 +1,7 @@
 name: ngs_process
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
   - defaults
 dependencies:
   - bamutil
