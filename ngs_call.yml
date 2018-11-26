@@ -13,5 +13,6 @@ dependencies:
   - varscan
   - manta
   - r-facets
+  - r-data.table
   - freebayes
   
