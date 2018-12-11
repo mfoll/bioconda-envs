@@ -17,4 +17,5 @@ dependencies:
   - trim-galore
   - adapterremoval
   - htseq
+  - bam-readcount
   
